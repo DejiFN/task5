@@ -33,8 +33,8 @@ sniffio==1.3.0
 SQLAlchemy==1.4.49
 starlette==0.27.0
 tqdm==4.66.1
-typing_extensions==4.8.0
+typing_extensions==4.7.1
 urllib3==1.26.16
-uvicorn==0.23.2
+uvicorn==0.22.2
 whisper==1.1.10
 yarl==1.9.2
