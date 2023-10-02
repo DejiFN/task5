@@ -9,7 +9,7 @@ import uuid
 import databases
 #import whisper
 
-DATABASE_URL = "sqlite:///./test.db"
+DATABASE_URL = "postgresql://task5data_user:FoDFry16NFNg4WuBiacx6tUXx9GiJbvW@dpg-ckdgnosgonuc73bm5nrg-a/task5data"
 database = databases.Database(DATABASE_URL, force_rollback=True)  # Added force_rollback=True
 
 engine = create_engine(DATABASE_URL)
